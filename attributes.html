@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Favorite Hobbies</title>
+    <style>
+        /* Simple CSS styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .highlight {
+            color: darkblue;
+            font-weight: bold;
+        }
+        #unique-note {
+            color: green;
+            font-style: italic;
+        }
+        img {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 title="Main Page Heading">My Favorite Hobbies</h1>
+        <nav>
+            <a href="#reading" title="Go to Reading Section">Reading</a>
+            <a href="#travel" title="Go to Travel Section">Travel</a>
+            <a href="#music" title="Go to Music Section">Music</a>
+            <a href="https://www.wikipedia.org" target="_blank" title="Visit Wikipedia">Wikipedia</a>
+        </nav>
+    </header>
+    <section id="reading">
+        <h2 class="highlight">1. Reading Books</h2>
+        <p>
+            Reading expands knowledge and imagination.  
+            Example of a relative link: <a href="books.html">See my book list</a>
+        </p>
+        <p id="unique-note" title="This note has a unique ID">
+            This paragraph uses a unique <code>id</code> for styling.
+        </p>
+        <img src="reading.jpg" alt="Person reading a book" width="300" height="200" title="Reading Hobby">
+    </section>
+    <section id="travel">
+        <h2 class="highlight">2. Traveling</h2>
+        <p>
+            Traveling lets me explore new cultures and traditions.  
+            Example absolute link: <a href="https://www.lonelyplanet.com" target="_blank">Travel Guide</a>  
+            Example email link: <a href="mailto:travel@example.com">Contact me for travel tips</a>
+        </p>
+        <a href="https://www.google.com/maps" target="_blank">
+            <img src="travel.jpg" alt="Traveling scenery" width="300" height="200" title="Click to open Google Maps">
+        </a>
+    </section>
+    <section id="music">
+        <h2 class="highlight">3. Listening to Music</h2>
+        <p>
+            Music relaxes the mind and uplifts mood.  
+            Example download link: <a href="song.mp3" download>Download My Favorite Song</a>
+        </p>
+        <img src="music.jpg" alt="Headphones and music notes" style="max-width:100%; height:auto;" title="Music Hobby">
+    </section>
+    <p hidden>This hidden text shows how the 'hidden' attribute works.</p>
+    <footer>
+        <p>&copy; 2025 My Hobbies Page</p>
+    </footer>
+
+</body>
+</html>
